@@ -1,0 +1,30 @@
+Here's a draft llms.txt file for the L402 protocol based on the provided documents:
+
+```markdown
+# L402 Protocol
+
+> L402 is a protocol that enables seamless, machine-friendly transactions for AI and automation by leveraging HTTP 402 status codes and JSON payloads to standardize how payments are requested and processed.
+
+Key features:
+- HTTP-based flow using 402 status codes
+- Standardized payment requests
+- Payment agnostic (supports various payment solutions)
+- Designed for automation and AI agents
+- Extensible and open source
+
+## Documentation
+
+- [L402 Protocol Overview](https://github.com/l402-protocol/l402/blob/main/README.md): Key features, introduction, and protocol details
+- [L402 Client Examples](https://github.com/l402-protocol/l402-client-example/blob/main/README.md): Example implementations of L402 protocol clients using various frameworks and payment methods
+- [L402 Server Example](https://github.com/l402-protocol/l402-server-example/blob/main/README.md): Demonstration of how to build AI-agent friendly paid APIs using the L402 protocol
+
+## Examples
+
+- [Stock Data L402 Demo](https://github.com/l402-protocol/l402-server-example/blob/main/README.md): A live demonstration of L402 protocol implementation for stock market data API
+
+## Optional
+
+- [L402 Protocol Flow Diagram](https://github.com/l402-protocol/l402/blob/main/l402-protocol-flow.svg): Visual representation of the L402 protocol workflow
+```
+
+This llms.txt file follows the specification format and includes essential information for LLMs to understand and use the L402 protocol. It references real documentation paths from the provided repositories.
