@@ -1,38 +1,15 @@
-# L402 Protocol LLMS.txt Generator
+# L402 Protocol llms.txt
 
-This repository is designed to generate an `llms.txt` file for the L402 protocol using the `llmstxt.md` as the format specification input. The output is a file named `l402-llms.txt`.
+This repository provides the `l402-llms.txt` file - an [llms.txt standard](https://llmstxt.org/) implementation for the L402 protocol.
 
 ## Usage
 
+Download and use the `l402-llms.txt` file to help LLMs interact with L402-enabled services. Place it at the root of your service (typically at `/llms.txt`) to enable AI assistants to understand your service's L402 payment requirements.
 
-2. **Generate LLMS.txt**:
-   - Run the Jupyter notebook `gen_llmstxt.ipynb` to generate the `l402-llms.txt` file.
-   - The notebook uses the `llmstxt.md` file as the input for the format specification.
-   - You can run the notebook directly in Jupyter or use the Makefile to generate the file.
+## Getting Started
 
-3. **Output**: The generated `l402-llms.txt` will be saved in the root directory.
+For more information:
+- [L402 Protocol Documentation](https://github.com/l402-protocol/l402)
+- [llmstxt.org](https://llmstxt.org/)
 
-## Key Files
-
-- `llmstxt.md`: Contains the format specification for the `llms.txt` file.
-- `gen_llmstxt.ipynb`: Jupyter notebook that processes the input and generates the output file.
-- `l402-llms.txt`: The generated output file following the specification.
-
-## Quick Start
-
-To quickly generate the `l402-llms.txt` file, execute the following command:
-
-```bash
-make all
-```
-
-It assumes that this repository is at the same level as the other L402 repositories.
-
-```
-❯ tree -L 1
-.
-├── l402
-├── l402-client-example
-├── l402-server-example
-└── llms.txt
-```
+For developers interested in contributing, see [CONTRIBUTING.md](CONTRIBUTING.md).
